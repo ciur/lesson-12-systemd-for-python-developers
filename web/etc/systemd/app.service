@@ -1,0 +1,9 @@
+[Unit]
+Description=App Service
+
+[Service]
+WorkingDirectory=/demo/web/
+EnvironmentFile=/demo/web/etc/app.env
+ExecStart=/demo/web/.venv/bin/flask run
+
+

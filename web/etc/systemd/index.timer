@@ -1,0 +1,7 @@
+[Unit]
+Description=Index DB Timer
+
+[Timer]
+#OnCalendar=*:0/2
+OnUnitActiveSec=5sec
+AccuracySec=1us

@@ -1,0 +1,5 @@
+[Unit]
+Description=Index DB
+
+[Service]
+ExecStart=/usr/bin/python /demo/web/index.py
